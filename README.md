@@ -22,7 +22,7 @@ $ bower install
 ```terminal
 $ grunt
 ````
-You're playground is now all setup and running on http://localhost:8282/ spawned by grunt's http-node server.
+Your playground is now all setup and running on http://localhost:8282/ spawned by grunt's http-node server.
 
 ## License
 
