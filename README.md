@@ -1,5 +1,7 @@
-## Hello Browser
-# A boilerplate for a front end development enviromnet, with minimal backend setup.
+# Hello Browser v0.1
+## Overview
+
+A boilerplate for a front end development enviromnet, with minimal backend setup.
 
 Using Grunt to run a small node server, and also do all the things grunt does best with web project dev automation, along with bower, you are given all the tools you need to start haxzoring your way through the front end environment.
 
