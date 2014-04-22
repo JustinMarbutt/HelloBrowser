@@ -14,7 +14,7 @@ download it here for your OS - http://nodejs.org/download/
 $ git clone git://github.com/justinmarbutt/hellobrowser.git
 ```
 ```terminal
-$ cd HelloBrowser && npm install
+$ npm install
 ```
 ```terminal
 $ bower install
