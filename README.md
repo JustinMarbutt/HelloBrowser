@@ -2,9 +2,12 @@
 
 A boilerplate for a front end development enviromnet, with minimal backend setup.
 
-Using Grunt to run a small node server, and also do all the things grunt does best with web project dev automation, along with bower, you are given all the tools you need to start haxzoring your way through the front end environment.
+Using Grunt to run a small node server, along with the staple bower components, you are given all the tools you need to start haxzoring your way through a front end environment, without worrying about setting up local servers or complicated frameworks.
 
 ## Install & Run
+```terminal
+$ git clone git://github.com/justinmarbutt/hellobrowser.git
+```
 ```terminal
 $ cd HelloBrowser && npm install
 ```
