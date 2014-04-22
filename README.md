@@ -1,10 +1,15 @@
 ## Overview
 
-A boilerplate for a front end development enviromnet, with minimal backend setup.
+A boilerplate for a HTML5 page to hack up, served on localhost, without lots of messy server stuff.
 
-Using Grunt to run a small node server, along with the staple bower components, you are given all the tools you need to start haxzoring your way through a front end environment, without worrying about setting up local servers or complicated frameworks.
+Using Grunt to run a small node server, along with the staple bower components, you are given all the tools you need to start haxzoring your way through a boring HTML5 page, and view the results in the browser.
+
+## Requires Node!
+
+download it here for your OS - http://nodejs.org/download/
 
 ## Install & Run
+
 ```terminal
 $ git clone git://github.com/justinmarbutt/hellobrowser.git
 ```
@@ -17,7 +22,7 @@ $ bower install
 ```terminal
 $ grunt
 ````
-You're playground is now all setup and running on [http://localhost:8282/](http://localhost:8282/) spawned by grunt's http-node server.
+You're playground is now all setup and running on http://localhost:8282/ spawned by grunt's http-node server.
 
 ## License
 
