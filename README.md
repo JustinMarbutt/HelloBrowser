@@ -4,9 +4,15 @@ A boilerplate for a HTML5 page to hack up, served on localhost, without lots of 
 
 Using Grunt to run a small node server, along with the staple bower components, you are given all the tools you need to start haxzoring your way through a boring HTML5 page, and view the results in the browser.
 
-## Requires Node!
+## Requires Node & Bower!
 
-download it here for your OS - http://nodejs.org/download/
+download Node here for your OS - http://nodejs.org/download/
+
+Once you have Node up and running, you can install Bower using npm.
+
+```terminal
+$ npm install -g bower
+````
 
 ## Install & Run
 
