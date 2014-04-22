@@ -1,4 +1,3 @@
-# Hello Browser v0.1
 ## Overview
 
 A boilerplate for a front end development enviromnet, with minimal backend setup.
@@ -15,7 +14,7 @@ $ bower install
 ```terminal
 $ grunt
 ````
-You're playground is now all setup and running on localhost:8282
+You're playground is now all setup and running on [http://localhost:8282/](http://localhost:8282/) spawned by grunt's http-node server.
 
 ## License
 
