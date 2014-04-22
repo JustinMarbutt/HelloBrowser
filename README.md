@@ -7,11 +7,13 @@ Using Grunt to run a small node server, and also do all the things grunt does be
 
 ## Install
 ```terminal
-npm install
-
-bower install
-
-grunt
+$ cd HelloBrowser && npm install
+```
+```terminal
+$ bower install
+```
+```terminal
+$ grunt
 ````
 You're playground is now all setup and running on localhost:8282
 
