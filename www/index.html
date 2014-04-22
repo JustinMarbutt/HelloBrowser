@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello Browser</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+  	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  		<div class="container">
+  			<div class="navbar-header navbar-left">
+  				<a class="navbar-brand" href="#">Hello Browser</a>
+  			</div>
+  			<div class="navbar-right navbar-form">
+  				<button class="btn btn-primary" role="button" data-toggle="modal" data-target="#aboutModal">about</button>
+        </div>
+  		</div>
+  	</div>
+	<div class="jumbotron">
+		<div class="container">
+			<h1> Hello, Browser! </h1>
+	    	<h2> A JavaScript &amp; Front End Playground Boilerplate</h2>
+	    	<h3> Served by Grunt, and utilizing Bower</h3>
+	    </div>
+	</div>
+	<div class="container">
+      <!-- Example row of columns -->
+      <div class="center-block">
+      	<h1> The Standard Toolset</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="toolset-logo" src="/img/jquery.jpg" />
+          <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+          <p><a class="btn btn-default" href="//jquery.com/" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="toolset-logo" src="/img/bootstrap.png"/>
+          <p>Sleek, intuitive, and powerful front-end framework for faster and easier web development. Responsive styling, cross-browser support, standardized buttons, inputs, pop-ups and more. Bootstrap easily and efficiently scales your project with one code base.</p>
+          <p><a class="btn btn-default" href="//getbootstrap.com" role="button">View details »</a></p>
+       </div>
+        <div class="col-md-4">
+		  <img class="toolset-logo" src="/img/less.png"/>
+          <p>Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable.</p>
+          <p><a class="btn btn-default" href="//lesscss.org" role="button">View details »</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer >
+      	<p class="pull-left">By <a href="http://justintm.com">Justin Marbutt</a></p>
+        <p class="pull-right">version 0.0.1</p>
+      </footer>
+      <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h5 class="modal-title" id="myModalLabel">&nbsp;</h5>
+            </div>
+            <div class="modal-body text-center">
+              <h2>Hello, Browser! v0.1</h2><h5>A JavaScript &amp; Front End Playground Boilerplate<br/> By Justin Marbutt</h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	  <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Hello_Browser",
+  "version": "0.0.1",
+  "authors": [
+    "Justin Marbutt <justinmarbutt@gmail.com>"
+  ],
+  "description": "A JavaScript & Front End Dev Playground Boilerplate",
+  "main": "www/index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3",
+    "jquery": "~2.1.0"
+  }
+}

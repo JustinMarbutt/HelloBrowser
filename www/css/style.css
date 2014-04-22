@@ -1,0 +1,12 @@
+body{
+	width:100%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.jumbotron{
+	background:#EEE;
+}
+.toolset-logo{
+	width:360px;
+	height:180px;
+}
