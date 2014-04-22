@@ -4,7 +4,7 @@ A boilerplate for a front end development enviromnet, with minimal backend setup
 
 Using Grunt to run a small node server, and also do all the things grunt does best with web project dev automation, along with bower, you are given all the tools you need to start haxzoring your way through the front end environment.
 
-## Install
+## Install && Run
 ```terminal
 $ cd HelloBrowser && npm install
 ```
@@ -20,7 +20,7 @@ You're playground is now all setup and running on [http://localhost:8282/](http:
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Justin Marbutt
+Copyright (c) 2014 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
