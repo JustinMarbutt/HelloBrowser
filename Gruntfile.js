@@ -20,13 +20,17 @@ module.exports = function(grunt) {
             // run in parallel with other tasks
             runInBackground: false
         }
+    },
+    jshint: {
+      all: ['Gruntfile.js', 'www/js/*.js']
     }
   });
 
   //grunt.loadNpmTasks('grunt-contrib-copy');
   //grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-http-server');
 
   // Default task(s).
-  grunt.registerTask('default', ['http-server:dev']);
+  grunt.registerTask('default', ['jshint','http-server:dev']);
 };
