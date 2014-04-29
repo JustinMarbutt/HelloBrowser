@@ -15,7 +15,7 @@
   			</div>
         <div class="collapse navbar-collapse navbar-left">
           <ul class="nav navbar-nav nav-pills">
-            <li><a href="/draw">Draw</a></li>
+            <li class="active"><a href="/draw">Draw</a></li>
           </ul>
         </div>
   			<div class="navbar-right navbar-form">
@@ -23,40 +23,10 @@
         </div>
   		</div>
   	</div>
-	<div class="jumbotron">
-		<div class="container home-jumbo">
-      <div class="row">
-        <div class="col-md-2">
-          <img class="main-logo" src="/img/HelloBrowser.png" width="180px"/>
-        </div>
-        <div class="col-md-8">
-			   <h1> Hello, Browser </h1>
-	       <h2> A JavaScript &amp; Front End Playground Boilerplate</h2>
-	       <h3> Served by Grunt, and utilizing Bower</h3>
-        </div>
-      </div>
-    </div>
-	</div>
 	<div class="container">
-      <!-- Example row of columns -->
-      <div class="center-block">
-      	<h1> The Standard Toolset</h1>
-      </div>
       <div class="row">
-        <div class="col-md-4">
-          <img class="toolset-logo" src="/img/jquery.jpg" />
-          <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
-          <p><a class="btn btn-default" href="//jquery.com/" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-          <img class="toolset-logo" src="/img/bootstrap.png"/>
-          <p>Sleek, intuitive, and powerful front-end framework for faster and easier web development. Responsive styling, cross-browser support, standardized buttons, inputs, pop-ups and more. Bootstrap easily and efficiently scales your project with one code base.</p>
-          <p><a class="btn btn-default" href="//getbootstrap.com" role="button">View details »</a></p>
-       </div>
-        <div class="col-md-4">
-		  <img class="toolset-logo" src="/img/jshint.png"/>
-          <p>JSHint is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team's coding conventions. It is flexible so you can easily adjust it to your particular coding guidelines and the environment you expect your code to execute in.</p>
-          <p><a class="btn btn-default" href="//jshint.com/docs/" role="button">View details »</a></p>
+        <div class="col-md-8 col-md-offset-2">
+          <canvas data-processing-sources="/draw/sketch.pde" class="hello-canvas"></canvas>
         </div>
       </div>
       <footer>
@@ -82,6 +52,7 @@
     </div>
 	  <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/bower_components/Processing.js/processing.js"></script>
     <script src="/js/script.js"></script>
   </body>
 </html>
